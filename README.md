@@ -4,7 +4,7 @@ A simple neural network implementation in pure C
 
 ## Documentation
 
-# Structs
+### Structs
 | Network | Layer | Node |
 | ------- | ----- | ---- |
 | int *networkLayerSizes |
