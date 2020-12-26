@@ -28,10 +28,17 @@ A simple neural network implementation in pure C
 | void saveModel(Network *net,char *filename) | Saves Network architecture and weights in a text file |
 | void loadModel(Network *n, char *filename) | Loads Network architecture and weights from a text file |
 	
-| Activation Functions |
-| -------------------- |
-| sigmoid |
+| Activation Functions | Error Functions |
+| -------------------- | --------------- |
+| sigmoid | mean squared error |
 | tanH |
 | ReLu |
 	
+Run Example
+============
+Train the network in xor problem an save the trained networn in xorModel.txt file
+	gcc trainXor.c -o trainxor -lm && ./trainxor
+	
+Load Network from xorModel.txt and test it
+	gcc testXor.c -o testxor -lm && ./testxor
 	
