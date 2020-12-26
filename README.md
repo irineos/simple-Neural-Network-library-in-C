@@ -4,9 +4,11 @@ A simple neural network implementation in pure C
 
 ## Documentation
 
-| Network | struct Network | 
-  int *networkLayerSizes;
-	int numberOfLayers;
-	int inputSize;
-	int outputSize;
-	Layer *layer;
+#Sructs
+| Network | Layer | Node |
+| ------- | ----- | ---- |
+| int *networkLayerSizes |
+| int numberOfLayers |
+| int inputSize |
+| int outputSize |
+| Layer *layer |
