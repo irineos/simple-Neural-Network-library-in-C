@@ -37,8 +37,10 @@ A simple neural network implementation in pure C
 Run Example
 ============
 Train the network in xor problem an save the trained networn in xorModel.txt file
+
 	gcc trainXor.c -o trainxor -lm && ./trainxor
 	
 Load Network from xorModel.txt and test it
+
 	gcc testXor.c -o testxor -lm && ./testxor
 	
